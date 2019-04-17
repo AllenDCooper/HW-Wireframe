@@ -1,27 +1,22 @@
 body {
-    background-color: rgb(119,119,119);
-    color: rgb(119,119,119);
-    font-size: 14px;
-    line-height: 30px;
+    background-color: #777;
+    color:#777;
+    font-size: 18px;
     text-align: center;
-    font-family: sans-serif;
-}
-
-.wrapper {
-    width: 800px;
-    margin: 0 auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin: 10px auto;
 }
 
 header {
-    background-color: white;
+    background-color:#ebebeb;
     height: 40px;
     padding: 20px;
     margin-bottom: 10px;
-
 }
 
 nav {
-    background-color: white;
+    background-color: #ebebeb;
     height: 40px;
     padding: 20px;
     margin-bottom: 10px;
@@ -29,45 +24,45 @@ nav {
 
 section {
     float: left;
-    background-color: white;
-    width: 430px;
-    height: 230px;
-    padding: 20px;
+    background-color: #ebebeb;
+    width: 495px;
+    padding: 30px 10px 0px 10px;
+    margin-top: 10px;
 }
 
 article {
-    background-color: rgb(119,119,119);
-    color: white;
+    background-color: #777;
+    color: #ebebeb;
     padding: 10px;
-    margin: 10px;
+    margin: 20px 0px 10px 0px;
 }
 
-#heading {
-    background-color: white;
+#header {
+    background-color: #ebebeb;
     padding: 1px;
     margin: 10px;
-    color: rgb(119,119,119);
-    font-weight: bold;
+    color: #777;
 }
 
 #paragraph {
-    background-color: white;
-    color: rgb(119,119,119);
+    background-color: #ebebeb;
+    color: #777;
     margin: 10px;
     padding: 1px;
 }
 
 aside {
     float: right;
-    background-color: white;
-    height: 230px;
-    width: 280px;
-    padding: 20px;
+    background-color: #ebebeb;
+    height: 210px;
+    width: 360px;
+    padding: 30px;
+    margin-top: 10px;
 }
 
 footer {
-    background-color: white;
-    margin-top: 10px;
+    background-color: #ebebeb;
+    margin-top: 20px;
     height: 40px;
     padding: 20px;
 }
